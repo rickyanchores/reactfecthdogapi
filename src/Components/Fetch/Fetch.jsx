@@ -10,6 +10,7 @@ const Fetch = () => {
             let res = await fetch(url)
             let data = await res.json()
             setData(data)
+            console.log(data)
         }
         catch(error){
             console.log("something went wrong",error)

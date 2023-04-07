@@ -1,0 +1,23 @@
+.Fetch{
+    background: #333;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .btn{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: coral;
+        font-size: 20px;
+        padding: 1em;
+    }
+    img{
+        width: 600px;
+        height: 400px;
+        object-fit: contain;
+        border-radius: 12px;
+    }
+}
