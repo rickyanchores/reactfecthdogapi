@@ -26,7 +26,7 @@ const Fetch = () => {
 
   return (
     <div className='Fetch'>
-        <button className='btn' onClick={fetchData}>fetch</button>
+        <button className='btn' onClick={fetchData}>Get Random Dog</button>
         <div className="result">
             <img src={dogData.message} alt="dog image" />
         </div>

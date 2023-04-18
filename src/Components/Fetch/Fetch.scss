@@ -5,6 +5,8 @@
     border-radius: 12px;
     padding: 2em;
     display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
     .btn{
@@ -13,6 +15,12 @@
         color: coral;
         font-size: 20px;
         padding: 1em;
+        cursor: pointer;
+        border: none;
+    }
+    .btn:hover{
+        background: coral;
+        color: white;
     }
     img{
         width: 600px;
@@ -21,3 +29,4 @@
         border-radius: 12px;
     }
 }
+
